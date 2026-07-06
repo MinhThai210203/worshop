@@ -22,6 +22,7 @@ ITCoach là nền tảng luyện phỏng vấn IT thông minh ứng dụng AI, g
 1. **Tài khoản AWS** với quyền Administrator hoặc đủ quyền tạo các dịch vụ sau:
    - IAM, S3, DynamoDB, Cognito, SQS, Lambda, API Gateway, CloudFront, Route 53, ACM, CloudWatch, SNS
 
+2. **OpenAI API Key**: Đăng ký tại [platform.openai.com](https://platform.openai.com) để sử dụng Speech-to-Text và GPT evaluation (**Quan trọng**: phải có ít nhất **$5** credit)
 
 3. **Region**: Workshop này sử dụng **ap-southeast-1 (Singapore)** cho hầu hết dịch vụ
    - **Đặc biệt**: ACM SSL Certificate phải tạo ở **us-east-1** để dùng với CloudFront

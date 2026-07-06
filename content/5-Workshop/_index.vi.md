@@ -35,4 +35,5 @@ Hệ thống bao gồm:
 10. [Thiết lập CloudFront](5.10-cloudfront/)
 11. [Cấu hình Route 53 và SSL](5.11-route53-ssl/)
 12. [Monitoring với CloudWatch](5.12-monitoring/)
-13. [Dọn dẹp tài nguyên](5.13-cleanup/)
+13. [Deploy Code](5.13-deploy-code/)
+14. [Dọn dẹp tài nguyên](5.14-cleanup/)

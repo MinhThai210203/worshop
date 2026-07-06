@@ -13,7 +13,7 @@ pre: " <b> 5. </b> "
 **ITCoach** là nền tảng luyện phỏng vấn IT thông minh ứng dụng AI, được xây dựng hoàn toàn trên kiến trúc AWS Serverless. Trong workshop này, bạn sẽ học cách thiết lập từng thành phần của hệ thống từ đầu đến cuối bằng AWS Console.
 
 Hệ thống bao gồm:
-- **Frontend**: ReactJS phân phối qua CloudFront và S3
+- **Frontend**: React + TypeScript phân phối qua CloudFront và S3
 - **Backend**: 8 Lambda functions xử lý nghiệp vụ
 - **Database**: 8 bảng DynamoDB lưu trữ dữ liệu
 - **Authentication**: Amazon Cognito quản lý người dùng

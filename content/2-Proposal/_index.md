@@ -13,7 +13,7 @@ pre: " <b> 2. </b> "
 
 ITCoach is a web platform that helps IT students and entry-level professionals practice technical knowledge, develop interview response skills, and simulate real interview environments with AI support. The goal is to help students increase their chances of passing Internship, Fresher, and Junior recruitment rounds at technology companies.
 
-The platform supports diverse practice formats: single or multiple-choice quizzes with Spaced Repetition (SM-2) mechanism, essay-style text or voice recording answers, and simulated real interview sessions where AI asks questions using voice. AI provides detailed evaluation for each answer, points out gaps, suggests improvements, and responds with voice feedback via Amazon Polly. A Gamification system with XP, levels, streaks, and leaderboards helps increase learning motivation.
+The platform supports diverse practice formats: single or multiple-choice quizzes with Spaced Repetition (SM-2) mechanism, essay-style voice recording answers, and simulated real interview sessions. AI provides detailed evaluation for each answer, points out gaps, suggests improvements, and responds with voice feedback via Amazon Polly. A Gamification system with XP, levels, streaks, and leaderboards helps increase learning motivation.
 
 The system is built entirely on Amazon Web Services using Serverless Architecture. The frontend uses React + TypeScript distributed via Amazon CloudFront, backend processing by AWS Lambda, data storage on Amazon DynamoDB, and integrates OpenAI API for answer evaluation and Amazon Polly for voice generation.
 
@@ -25,7 +25,7 @@ IT students and entry-level professionals often lack realistic interview practic
 
 - Traditional quiz websites only test theory, do not evaluate articulation ability
 - No tools evaluate essay or voice answers with detailed AI feedback
-- No environment simulates real interviews by specialty and level
+- No environment simulates real interviews by specialty
 - Difficult to identify personal weaknesses to focus practice efforts properly
 - Foreign platforms have language barriers, high costs, inadequate fit for Vietnamese IT market
 
@@ -53,7 +53,7 @@ ITCoach addresses these issues with core features:
 - **Amazon CloudWatch + SNS** monitors system and sends automatic alerts
 - **Amazon Route 53 + ACM** manages DNS and SSL certificate for domain `itcoach24h.xyz`
 
-### Benefits and ROI
+### Benefits
 
 - Students have realistic IT interview practice environment with instant AI feedback like a mentor
 - Spaced Repetition enables effective memorization, system automatically identifies individual weaknesses

@@ -12,7 +12,7 @@ pre: " <b> 7. </b> "
 The working environment at AWS is very professional and dynamic. The office is modern with full equipment and working tools. The work atmosphere is open, encouraging creativity and innovation.
 
 **2. Support from Mentor / Team Admin**  
-Mentors and AWS team are always enthusiastic in providing guidance and answering technical questions in detail. Particularly valuable are the workshop sessions and experience sharing about serverless architecture and AWS best practices. The admin team provides excellent support with documentation, AWS accounts, and administrative matters.
+Mentors and AWS team are always enthusiastic in providing guidance and answering technical questions in detail. Particularly valuable are the event sessions sharing experiences about serverless architecture and AWS best practices. The admin team provides excellent support with documentation, AWS accounts, and administrative matters.
 
 **3. Relevance of Work to Academic Major**  
 The Bootcamp program is completely aligned with IT majors. Getting to learn and practice AWS services directly like Lambda, DynamoDB, API Gateway, CloudFront, Cognito - all are essential skills for Cloud Engineers and Full-stack Developers. The knowledge gained is immediately applicable in practice.
@@ -25,8 +25,6 @@ AWS culture highly values customer obsession and innovation. Team spirit in the 
 
 **6. Internship Policies / Benefits**  
 AWS provides AWS accounts for practice, comprehensive documentation, and a good working environment. The program is well-organized with a clear roadmap and specific milestones. AWS credits are provided to experiment with services without cost concerns.
-
----
 
 ### Feedback and Suggestions
 
@@ -44,8 +42,6 @@ AWS provides AWS accounts for practice, comprehensive documentation, and a good 
 **Suggestions for Future Programs:**
 - Organize more networking events with AWS engineers
 - Provide AWS certification vouchers for outstanding performers
-
----
 
 ### Conclusion
 

@@ -13,7 +13,7 @@ pre: " <b> 2. </b> "
 
 ITCoach là nền tảng web hỗ trợ sinh viên IT và người mới đi làm ôn luyện kiến thức chuyên môn, rèn luyện kỹ năng trả lời phỏng vấn và mô phỏng môi trường phỏng vấn thực tế với sự hỗ trợ của AI. Mục tiêu là giúp sinh viên tăng khả năng vượt qua các vòng tuyển dụng Internship, Fresher và Junior tại các công ty công nghệ.
 
-Nền tảng hỗ trợ đa dạng hình thức luyện tập: trắc nghiệm một hoặc nhiều lựa chọn với cơ chế Spaced Repetition (SM-2), tự luận nhập tay hoặc ghi âm giọng nói, và mô phỏng buổi phỏng vấn thực tế có AI đặt câu hỏi bằng giọng nói. AI đánh giá chi tiết từng câu trả lời, chỉ ra điểm thiếu, gợi ý cải thiện và phản hồi bằng giọng nói qua Amazon Polly. Hệ thống Gamification với XP, level, streak và bảng xếp hạng giúp tăng động lực học tập.
+Nền tảng hỗ trợ đa dạng hình thức luyện tập: trắc nghiệm một hoặc nhiều lựa chọn với cơ chế Spaced Repetition (SM-2), tự luận ghi âm giọng nói, và mô phỏng buổi phỏng vấn thực tế. AI đánh giá chi tiết từng câu trả lời, chỉ ra điểm thiếu, gợi ý cải thiện và phản hồi bằng giọng nói qua Amazon Polly. Hệ thống Gamification với XP, level, streak và bảng xếp hạng giúp tăng động lực học tập.
 
 Hệ thống được xây dựng hoàn toàn trên Amazon Web Services theo mô hình Serverless Architecture. Frontend sử dụng React + TypeScript phân phối qua Amazon CloudFront, backend xử lý bởi AWS Lambda, dữ liệu lưu trữ trên Amazon DynamoDB, tích hợp OpenAI API để đánh giá câu trả lời và Amazon Polly để tạo giọng nói.
 
@@ -25,7 +25,7 @@ Sinh viên IT và người mới đi làm thường thiếu môi trường thự
 
 - Các website trắc nghiệm thông thường chỉ kiểm tra lý thuyết, không đánh giá khả năng diễn đạt
 - Không có công cụ đánh giá câu trả lời tự luận hoặc giọng nói với phản hồi AI chi tiết
-- Không có môi trường mô phỏng phỏng vấn thực tế theo từng chuyên ngành và cấp độ
+- Không có môi trường mô phỏng phỏng vấn thực tế theo từng chuyên ngành
 - Khó nhận biết điểm yếu cá nhân để tập trung ôn luyện đúng chỗ
 - Nền tảng nước ngoài có rào cản ngôn ngữ, chi phí cao, không phù hợp thị trường IT Việt Nam
 
@@ -53,7 +53,7 @@ ITCoach giải quyết các vấn đề trên với các tính năng cốt lõi:
 - **Amazon CloudWatch + SNS** giám sát hệ thống và cảnh báo tự động
 - **Amazon Route 53 + ACM** quản lý DNS và SSL certificate cho tên miền `itcoach24h.xyz`
 
-### Lợi ích và ROI
+### Lợi ích
 
 - Sinh viên có môi trường luyện phỏng vấn IT thực tế, phản hồi AI tức thời như một mentor
 - Spaced Repetition giúp ghi nhớ hiệu quả, bảng xếp hạng theo thời gian thực tạo động lực học tập

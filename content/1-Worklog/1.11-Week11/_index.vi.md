@@ -16,7 +16,7 @@ pre: " <b> 1.11. </b> "
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
 | 2 | - Nghiên cứu IAM Permission Boundary concepts<br>- Hiểu về effective permissions calculation<br>- Tạo Permission Boundary policy và test | 29/06/2026 | 29/06/2026 | <https://000030.awsstudygroup.com/> |
-| 3 | - Tìm hiểu AWS Systems Manager: Session Manager, Patch Manager, Run Command<br>- Tạo IAM Role, launch EC2 instances<br>- Configure Patch Manager và Run Command<br>- Test Session Manager connections | 30/06/2026 | 30/06/2026 | <https://000030.awsstudygroup.com/><br><https://000031.awsstudygroup.com/> |
+| 3 | - Tìm hiểu AWS Systems Manager: Session Manager, Patch Manager, Run Command<br>- Tạo IAM Role, launch EC2 instances<br>- Configure Patch Manager và Run Command<br>- Test Session Manager connections | 30/06/2026 | 30/06/2026 | <https://000031.awsstudygroup.com/> |
 | 4 | **Dự án ITCoach:**<br>- Deploy frontend: S3 bucket, CloudFront, Route 53, ACM<br>- Tạo API Gateway REST API<br>- Deploy 8 Lambda functions với Node.js runtime | 01/07/2026 | 01/07/2026 | Nội bộ nhóm |
 | 5 | **Dự án ITCoach:**<br>- Tạo 8 DynamoDB tables<br>- Setup Cognito User Pool và SQS queue<br>- Tạo 2 WAF Web ACLs (CloudFront + API Gateway)<br>- Setup CloudWatch Log Groups và SNS topics | 02/07/2026 | 02/07/2026 | Nội bộ nhóm |
 | 6 | **Dự án ITCoach:**<br>- Phát triển React + TypeScript frontend<br>- Build components và integrate AWS Amplify SDK<br>- Deploy code: build React app và upload lên S3<br>- Deploy Lambda code và test integration | 03/07/2026 | 03/07/2026 | Nội bộ nhóm |

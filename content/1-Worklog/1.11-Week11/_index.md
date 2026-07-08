@@ -16,7 +16,7 @@ pre: " <b> 1.11. </b> "
 | Day | Tasks | Start Date | Completion Date | Reference Documents |
 | --- | --- | --- | --- | --- |
 | Mon | - Research IAM Permission Boundary concepts<br>- Understand effective permissions calculation<br>- Create Permission Boundary policy and test | 06/29/2026 | 06/29/2026 | <https://000030.awsstudygroup.com/> |
-| Tue | - Learn AWS Systems Manager: Session Manager, Patch Manager, Run Command<br>- Create IAM Role, launch EC2 instances<br>- Configure Patch Manager and Run Command<br>- Test Session Manager connections | 06/30/2026 | 06/30/2026 | <https://000030.awsstudygroup.com/><br><https://000031.awsstudygroup.com/> |
+| Tue | - Learn AWS Systems Manager: Session Manager, Patch Manager, Run Command<br>- Create IAM Role, launch EC2 instances<br>- Configure Patch Manager and Run Command<br>- Test Session Manager connections | 06/30/2026 | 06/30/2026 | <https://000031.awsstudygroup.com/> |
 | Wed | **ITCoach Project:**<br>- Deploy frontend: S3 bucket, CloudFront, Route 53, ACM<br>- Create API Gateway REST API<br>- Deploy 8 Lambda functions with Node.js runtime | 07/01/2026 | 07/01/2026 | Internal team |
 | Thu | **ITCoach Project:**<br>- Create 8 DynamoDB tables<br>- Setup Cognito User Pool and SQS queue<br>- Create 2 WAF Web ACLs (CloudFront + API Gateway)<br>- Setup CloudWatch Log Groups and SNS topics | 07/02/2026 | 07/02/2026 | Internal team |
 | Fri | **ITCoach Project:**<br>- Develop React + TypeScript frontend<br>- Build components and integrate AWS Amplify SDK<br>- Deploy code: build React app and upload to S3<br>- Deploy Lambda code and test integration | 07/03/2026 | 07/03/2026 | Internal team |

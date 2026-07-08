@@ -16,7 +16,7 @@ pre: " <b> 1.12. </b> "
 | Day | Tasks | Start Date | Completion Date | Reference Documents |
 | --- | --- | --- | --- | --- |
 | Mon | - Study CloudWatch and CloudWatch Agent<br>- Learn about EC2 Right Sizing and cost optimization<br>- Create IAM Role for CloudWatch Agent<br>- Launch EC2 instance to test monitoring | 07/06/2026 | 07/06/2026 | <https://000032.awsstudygroup.com/> |
-| Tue | - Install CloudWatch Agent on EC2 instance<br>- Configure memory and disk metrics collection<br>- Generate workload to collect data<br>- Verify metrics in CloudWatch console | 07/07/2026 | 07/07/2026 | <https://000032.awsstudygroup.com/> |
+| Tue | - Install CloudWatch Agent on EC2 instance<br>- Configure memory and disk metrics collection<br>- Generate workload to collect data<br>- Verify metrics in CloudWatch console | 07/07/2026 | 07/07/2026 | <https://000033.awsstudygroup.com/> |
 | Wed | **ITCoach Project:**<br>- Comprehensive functional and integration testing<br>- Test all user flows end-to-end<br>- Load testing with 100 concurrent users<br>- Security testing: WAF, authentication, SSL/TLS | 07/08/2026 | 07/08/2026 | Internal team |
 | Thu | **ITCoach Project:**<br>- Improve UI/UX and fix bugs<br>- Performance optimization: lazy loading, reduce bundle size<br>- Full monitoring setup: Dashboard, alerts, X-Ray tracing | 07/09/2026 | 07/09/2026 | Internal team |
 | Fri | **ITCoach Project:**<br>- Stabilize infrastructure and optimize costs<br>- Write documentation: deployment runbook, API docs, troubleshooting guide<br>- Complete project: deploy to production <https://itcoach24h.xyz> | 07/10/2026 | 07/10/2026 | Internal team |

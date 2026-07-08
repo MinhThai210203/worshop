@@ -9,6 +9,8 @@ pre: " <b> 1.2. </b> "
 
 * Start with Amazon VPC and AWS VPN Site-to-Site.
 * Learn and practice creating VPC, Security Groups, VPN Connection.
+* Set up a secure connection between on-premises environments and the AWS Cloud using VPN.
+* Learn about and practice creating VPCs, Security Groups, and VPN connections.
 
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |

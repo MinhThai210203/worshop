@@ -9,6 +9,7 @@ pre: " <b> 1.1. </b> "
 
 * Managing Access Control with AWS IAM (Identity and Access Management).
 * Learn and practice creating Users, Groups, Roles and Switch Role.
+* Apply the principle of least privilege within the IAM security model.
 
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |

@@ -14,11 +14,11 @@ pre: " <b> 1.8. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| 2 | - Research AWS Transit Gateway architecture and use cases<br>- Compare Transit Gateway vs VPC Peering<br>- Create Transit Gateway and configure settings<br>- Attach VPCs to Transit Gateway | 06/08/2026 | 06/08/2026 | <https://000020.awsstudygroup.com/> |
-| 3 | - Configure Transit Gateway route tables<br>- Test connectivity between multiple VPCs<br>- Launch EC2 instances and test inter-VPC communication<br>- Monitor Transit Gateway metrics on CloudWatch | 06/09/2026 | 06/09/2026 | <https://000020.awsstudygroup.com/> |
-| 4 | - Research EC2 cost optimization strategies<br>- Learn about Lambda functions for automation<br>- Create IAM roles for Lambda execution<br>- Write Lambda function to stop EC2 instances | 06/10/2026 | 06/10/2026 | <https://000022.awsstudygroup.com/> |
-| 5 | - Write Lambda function to start EC2 instances<br>- Implement resource tagging strategy<br>- Configure EventBridge rules for scheduled execution<br>- Test automated start/stop schedule | 06/11/2026 | 06/11/2026 | <https://000022.awsstudygroup.com/> |
-| 6 | - Implement SNS notifications for Lambda executions<br>- Configure CloudWatch alarms for cost monitoring<br>- Create CloudWatch dashboard for cost tracking<br>- Document complete solution architecture | 06/12/2026 | 06/12/2026 | <https://000022.awsstudygroup.com/> |
+| Mon | - Research AWS Transit Gateway architecture and use cases<br>- Compare Transit Gateway vs VPC Peering<br>- Create Transit Gateway and configure settings<br>- Attach VPCs to Transit Gateway | 06/08/2026 | 06/08/2026 | <https://000020.awsstudygroup.com/> |
+| Tue | - Configure Transit Gateway route tables<br>- Test connectivity between multiple VPCs<br>- Launch EC2 instances and test inter-VPC communication<br>- Monitor Transit Gateway metrics on CloudWatch | 06/09/2026 | 06/09/2026 | <https://000020.awsstudygroup.com/> |
+| Wed | - Research EC2 cost optimization strategies<br>- Learn about Lambda functions for automation<br>- Create IAM roles for Lambda execution<br>- Write Lambda function to stop EC2 instances | 06/10/2026 | 06/10/2026 | <https://000022.awsstudygroup.com/> |
+| Thu | - Write Lambda function to start EC2 instances<br>- Implement resource tagging strategy<br>- Configure EventBridge rules for scheduled execution<br>- Test automated start/stop schedule | 06/11/2026 | 06/11/2026 | <https://000022.awsstudygroup.com/> |
+| Fri | - Implement SNS notifications for Lambda executions<br>- Configure CloudWatch alarms for cost monitoring<br>- Create CloudWatch dashboard for cost tracking<br>- Document complete solution architecture | 06/12/2026 | 06/12/2026 | <https://000022.awsstudygroup.com/> |
 
 ### Week 8 Achievements:
 

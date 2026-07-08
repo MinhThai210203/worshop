@@ -7,89 +7,34 @@ pre: " <b> 1.10. </b> "
 ---
 ### Week 10 Objectives:
 
-* Implement AWS WAF to protect web applications from common attacks (SQL injection, XSS).
-* Master resource tagging strategy and Resource Groups for efficient resource organization.
-* Implement tag-based IAM policies (ABAC) to control access based on resource tags.
+* Implement AWS WAF to protect web applications from common attacks (SQL injection, XSS, DDoS).
+* Master comprehensive resource tagging strategy and Resource Groups for efficient resource organization.
+* Deploy tag-based IAM policies (ABAC) to control access based on resource tags for enhanced governance.
+* ITCoach project: finalize system design, complete detailed database schema, and define API endpoints.
 
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| 2 | - Research AWS WAF concepts and architecture<br>- Learn about OWASP Top 10 vulnerabilities<br>- Create S3 bucket and deploy sample web app (OWASP Juice Shop)<br>- Test functionality and identify security vulnerabilities | 06/22/2026 | 06/22/2026 | <https://000026.awsstudygroup.com/> |
-| 3 | - Create Web ACL from WAF console<br>- Associate Web ACL with CloudFront or ALB<br>- Implement managed rules from AWS<br>- Configure rate-based rules and test | 06/23/2026 | 06/23/2026 | <https://000026.awsstudygroup.com/> |
-| 4 | - Create custom rules for SQL injection protection<br>- Configure XSS (Cross-Site Scripting) rules<br>- Test custom rules with attack simulations<br>- Implement IP set rules | 06/24/2026 | 06/24/2026 | <https://000026.awsstudygroup.com/> |
-| 5 | - Enable WAF logging to S3 or CloudWatch Logs<br>- Analyze WAF logs and fine-tune rules<br>- Configure CloudWatch alarms for WAF<br>- Document WAF configuration | 06/25/2026 | 06/25/2026 | <https://000026.awsstudygroup.com/> |
-| 6 | - Research resource tagging strategies and best practices<br>- Prepare EC2 resources for tagging<br>- Tag EC2 instances and EBS volumes using Console<br>- Filter and organize tagged resources | 06/26/2026 | 06/28/2026 | <https://000027.awsstudygroup.com/><br><https://000028.awsstudygroup.com/> |
+| Mon | - Research AWS WAF and OWASP Top 10 vulnerabilities<br>- Create Web ACL, configure managed rules and rate-based rules<br>- Create custom rules: SQL injection, XSS protection | 06/22/2026 | 06/22/2026 | <https://000026.awsstudygroup.com/> |
+| Tue | - Enable WAF logging and analyze logs<br>- Research resource tagging strategies<br>- Tag resources and create Resource Groups<br>- Implement IAM tag-based access control (ABAC) | 06/23/2026 | 06/23/2026 | <https://000026.awsstudygroup.com/><br><https://000027.awsstudygroup.com/><br><https://000028.awsstudygroup.com/> |
+| Wed | **ITCoach Project:**<br>- Review feedback from last week and adjust architecture<br>- Add SQS for async AI processing<br>- Finalize database schema for 8 DynamoDB tables | 06/24/2026 | 06/24/2026 | Internal team |
+| Thu | **ITCoach Project:**<br>- Detail design API endpoints with schema<br>- Design GSI for query patterns<br>- Create infrastructure checklist: 15+ AWS services | 06/25/2026 | 06/25/2026 | Internal team |
+| Fri | **ITCoach Project:**<br>- Estimate costs: ~$12-20/month AWS + $1-5 OpenAI<br>- Complete design documentation<br>- Update architecture diagram final version | 06/26/2026 | 06/26/2026 | Internal team |
 
 ### Week 10 Achievements:
 
-* Mastered AWS WAF for web application security:
-  * Understand AWS WAF concepts and architecture
-  * Master common web vulnerabilities (OWASP Top 10): SQL Injection, XSS, CSRF, etc.
-  * Understand Web ACL, Rules, and Rule Groups
-  * Created S3 bucket and deployed sample vulnerable web app (OWASP Juice Shop)
-  * Tested and identified security vulnerabilities in application
-  * Successfully created Web ACL from WAF console and associated with CloudFront/ALB
-  * Properly configured Web ACL settings
-  * Implemented managed rules from AWS Managed Rules
-  * Configured rate-based rules for DDoS protection
-  * Tested rules against sample attacks and verified blocking
+**Mon-Tue: AWS Labs - WAF + Resource Tagging**
 
-* Mastered custom WAF rules and advanced configuration:
-  * Created custom rules for specific threats
-  * Implemented SQL injection protection rules
-  * Configured XSS (Cross-Site Scripting) prevention rules
-  * Tested custom rules with attack simulations and penetration testing
-  * Created advanced custom rules with complex conditions
-  * Configured rule priority and actions (Allow, Block, Count)
-  * Implemented IP set rules for blacklist/whitelist
-  * Tested comprehensive rule set with real-world scenarios
-  * Custom rules successfully protecting against SQL injection and XSS attacks
-  * Rule priority optimized for performance
+* **Mon - AWS WAF (Lab 026):** Mastered WAF architecture and OWASP Top 10 vulnerabilities protection. Successfully deployed Web ACL with managed rules for SQL injection and XSS prevention. Configured rate-based rules for DDoS mitigation and custom rules for specific threats. Enabled comprehensive logging and monitoring through CloudWatch for security analysis.
 
-* Implemented WAF logging and monitoring:
-  * Enabled WAF logging to S3 bucket and CloudWatch Logs
-  * Configured request sampling to analyze traffic patterns
-  * Analyzed WAF logs to identify attack patterns
-  * Reviewed blocked and allowed requests
-  * Fine-tuned rules based on actual traffic and logs
-  * Configured CloudWatch alarms for WAF metrics (blocked requests, rate limits)
-  * Monitored WAF effectiveness and adjusted rules
-  * Documented complete WAF configuration, rules, and testing results
-  * WAF protection working effectively against common web attacks
+* **Tue - Resource Tagging (Lab 027+028):** Implemented enterprise-level tagging strategy with standardized taxonomy (Environment, CostCenter, Project, Owner). Created automated tagging policies via console and CLI operations. Deployed Resource Groups for efficient resource management and implemented tag-based IAM access control (ABAC) for enhanced security governance.
 
-* Mastered Resource Tagging and Resource Groups:
-  * Researched and designed comprehensive resource tagging strategy
-  * Understand tagging best practices and naming conventions
-  * Tag categories: Environment (Dev/Test/Prod), CostCenter, Project, Owner, Schedule
-  * Understand tag-based cost allocation and billing
-  * Prepared EC2 instances, EBS volumes, and other resources for tagging
-  * Tagged resources using AWS Console (point-and-click)
-  * Tagged resources using AWS CLI (bulk operations)
-  * Wrote scripts for automated tagging
-  * Updated and deleted tags via Console and CLI
-  * Filtered resources by tags in AWS Console
-  * Searched and organized tagged resources efficiently
-  * Mastered AWS CLI tagging operations
+**Wed-Fri: ITCoach Project - Design Finalization**
 
-* Used Resource Groups for resource management:
-  * Created Resource Groups based on tag queries
-  * Configured Resource Groups with complex tag filters
-  * Used Resource Groups to group related resources
-  * Tested Resource Groups functionality for bulk operations
-  * Monitored resources in groups
-  * Resource Groups help organize and manage resources efficiently
-  * Achieved efficient resource organization
+* **Design Completion:** Finalized system architecture incorporating all feedback from previous reviews. Enhanced the design with additional security layers and optimized data flow patterns. Created comprehensive technical documentation ready for implementation phase.
 
-* Implemented IAM tag-based access control (ABAC):
-  * Researched IAM attribute-based access control (ABAC)
-  * Understand tag-based IAM policies
-  * Created IAM users for testing scenarios
-  * Designed IAM policies based on resource tags
-  * Created IAM policy allowing access only to resources with specific tags
-  * Implemented tag-based permissions for EC2 operations (Start, Stop, Terminate)
-  * Tested IAM policies with different users and scenarios
-  * Verified access control: users can only access tagged resources
-  * Enforced tagging requirements via IAM policies
-  * Tag-based IAM policies working correctly
-  * Documented tag-based security model and best practices
-  * Understand how to scale security with tags in large environments
+* **Detailed Database Schema:** Completed database design with 8 DynamoDB tables including primary keys, sort keys, and Global Secondary Indexes. Defined data relationships, access patterns, and query optimization strategies. Established data modeling best practices for scalability.
+
+* **API Endpoints Specification:** Documented 25+ REST API endpoints across 7 functional groups (Authentication, Questions, Sessions, Answers, Quiz, Gamification, Results). Defined complete request/response schemas, error handling, and authentication requirements for each endpoint.
+
+* **Infrastructure Checklist:** Created comprehensive deployment checklist covering 15+ AWS services including frontend (S3, CloudFront, Route 53), backend (API Gateway, Lambda, DynamoDB), security (WAF, Cognito), and monitoring (CloudWatch, SNS). Established cost estimates and operational procedures.

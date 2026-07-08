@@ -6,8 +6,6 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-**On this page**, you will need to introduce your worklog. **How** did you complete it? How many weeks did you take to complete the program? **What** did you do in those weeks?
-
 Typically, and as a standard, a worklog is carried out over about 3 months (throughout the internship period) with weekly contents as follows:
 
 **Week 1:** [Managing Access Control with AWS IAM](1.1-week1/)
@@ -26,10 +24,10 @@ Typically, and as a standard, a worklog is carried out over about 3 months (thro
 
 **Week 8:** [AWS Transit Gateway & EC2 Cost Optimization with Lambda](1.8-week8/)
 
-**Week 9:** [CI/CD with CodePipeline & AWS Storage Gateway](1.9-week9/)
+**Week 9:** [CI/CD with CodePipeline & Storage Gateway | ITCoach Project: Ideation and Design](1.9-week9/)
 
-**Week 10:** [AWS WAF & Resource Management with Tags](1.10-week10/)
+**Week 10:** [AWS WAF & Resource Management with Tags | ITCoach Project: Design Finalization](1.10-week10/)
 
-**Week 11:** [Limit IAM Permissions with Permission Boundary & AWS Systems Manager](1.11-week11/)
+**Week 11:** [Permission Boundary & Systems Manager | ITCoach Project: Infrastructure Build & Development](1.11-week11/)
 
-**Week 12:** [EC2 Right Sizing with CloudWatch & Data Encryption with AWS KMS](1.12-week12/)
+**Week 12:** [Right Sizing with CloudWatch & Encryption with KMS | ITCoach Project: Testing and Completion](1.12-week12/)

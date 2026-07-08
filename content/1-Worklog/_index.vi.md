@@ -6,9 +6,6 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-**Trong trang này** bạn sẽ cần giới thiệu nhật ký công việc của bạn **như thế nào**? Bạn hoàn thành chương trình trong vòng **bao nhiêu tuần**? Bạn **đã làm gì** trong các tuần đó?
-
-
 Thông thường và cũng là tiêu chuẩn, một nhật ký công việc được thực hiện trong khoảng 3 tháng (trong suốt thời gian thực tập) với nội dung các tuần như sau:
 
 **Tuần 1:** [Quản lý kiểm soát truy cập với AWS IAM](1.1-week1/)
@@ -27,10 +24,10 @@ Thông thường và cũng là tiêu chuẩn, một nhật ký công việc đư
 
 **Tuần 8:** [AWS Transit Gateway & Tối ưu chi phí EC2 với Lambda](1.8-week8/)
 
-**Tuần 9:** [CI/CD với CodePipeline & AWS Storage Gateway](1.9-week9/)
+**Tuần 9:** [CI/CD với CodePipeline & Storage Gateway | Dự án ITCoach: Lên ý tưởng và thiết kế](1.9-week9/)
 
-**Tuần 10:** [AWS WAF & Quản lý tài nguyên với Tags](1.10-week10/)
+**Tuần 10:** [AWS WAF & Quản lý tài nguyên với Tags | Dự án ITCoach: Hoàn thiện thiết kế](1.10-week10/)
 
-**Tuần 11:** [Giới hạn quyền IAM với Permission Boundary & AWS Systems Manager](1.11-week11/)
+**Tuần 11:** [Permission Boundary & Systems Manager | Dự án ITCoach: Xây dựng hạ tầng và phát triển](1.11-week11/)
 
-**Tuần 12:** [EC2 Right Sizing với CloudWatch & Mã hóa dữ liệu với AWS KMS](1.12-week12/)
+**Tuần 12:** [Right Sizing với CloudWatch & Mã hóa với KMS | Dự án ITCoach: Kiểm tra và hoàn thành](1.12-week12/)

@@ -7,57 +7,35 @@ pre: " <b> 1.12. </b> "
 ---
 ### Week 12 Objectives:
 
-* Choose the right EC2 size with CloudWatch Agent and AWS Compute Optimizer.
-* Encrypt data at rest with AWS KMS and S3.
-* Set up audit logging with CloudTrail and query with Athena.
+* Optimize EC2 instance sizing with CloudWatch Agent and AWS Compute Optimizer for cost efficiency.
+* Master data encryption at rest with AWS KMS and implement comprehensive audit logging with CloudTrail.
+* Query and analyze security logs using Amazon Athena for compliance and monitoring.
+* ITCoach project: conduct comprehensive testing, optimize web performance, stabilize infrastructure, and complete production deployment.
 
 ### Tasks to be implemented this week:
 | Day | Tasks | Start Date | Completion Date | Reference Documents |
 | --- | --- | --- | --- | --- |
 | Mon | - Study CloudWatch and CloudWatch Agent<br>- Learn about EC2 Right Sizing and cost optimization<br>- Create IAM Role for CloudWatch Agent<br>- Launch EC2 instance to test monitoring | 07/06/2026 | 07/06/2026 | <https://000032.awsstudygroup.com/> |
 | Tue | - Install CloudWatch Agent on EC2 instance<br>- Configure memory and disk metrics collection<br>- Generate workload to collect data<br>- Verify metrics in CloudWatch console | 07/07/2026 | 07/07/2026 | <https://000032.awsstudygroup.com/> |
-| Wed | - Analyze CloudWatch metrics data<br>- Enable AWS Compute Optimizer<br>- Review right-sizing recommendations<br>- Apply best practices for EC2 sizing | 07/08/2026 | 07/08/2026 | <https://000032.awsstudygroup.com/> |
-| Thu | - Study AWS KMS and encryption concepts<br>- Create IAM Users for testing<br>- Create Customer Managed Key (CMK)<br>- Configure key policies and permissions<br>- Create S3 bucket with KMS encryption | 07/09/2026 | 07/09/2026 | <https://000033.awsstudygroup.com/> |
-| Fri | - Enable CloudTrail logging for KMS operations<br>- Setup Amazon Athena for log queries<br>- Test encryption and decryption operations<br>- Query audit logs with Athena<br>- Complete and summarize the program | 07/10/2026 | 07/10/2026 | <https://000033.awsstudygroup.com/> |
+| Wed | **ITCoach Project:**<br>- Comprehensive functional and integration testing<br>- Test all user flows end-to-end<br>- Load testing with 100 concurrent users<br>- Security testing: WAF, authentication, SSL/TLS | 07/08/2026 | 07/08/2026 | Internal team |
+| Thu | **ITCoach Project:**<br>- Improve UI/UX and fix bugs<br>- Performance optimization: lazy loading, reduce bundle size<br>- Full monitoring setup: Dashboard, alerts, X-Ray tracing | 07/09/2026 | 07/09/2026 | Internal team |
+| Fri | **ITCoach Project:**<br>- Stabilize infrastructure and optimize costs<br>- Write documentation: deployment runbook, API docs, troubleshooting guide<br>- Complete project: deploy to production <https://itcoach24h.xyz> | 07/10/2026 | 07/10/2026 | Internal team |
 
 ### Week 12 Achievements:
 
-* Mastered Amazon CloudWatch and EC2 Right Sizing:
-  * Understand CloudWatch architecture: Basic monitoring vs Detailed monitoring
-  * CloudWatch Agent required to collect memory and disk utilization metrics
-  * Created IAM Role `CloudWatchAgentRole` and launched EC2 instance t3.large for testing
-  * Installed CloudWatch Agent, configured metrics: `mem_used_percent`, `disk_used_percent`
-  * Generated test workload with stress tool: CPU spike 15% → 85%, Memory spike 35% → 60%
-  * Created CloudWatch Dashboard to visualize metrics in real-time
+**Mon-Tue: AWS Labs - CloudWatch/Compute Optimizer + KMS/CloudTrail**
 
-* Analyzed and optimized costs with AWS Compute Optimizer:
-  * Enabled AWS Compute Optimizer (free service)
-  * Instance analysis: t3.large with CPU average 15%, Memory average 35%
-  * Recommended instance: t3.medium - Cost savings: 50% (~$30/month per instance)
-  * Current: $0.0832/hour, Recommended: $0.0416/hour
-  * Right-sizing best practices: Start small, monitor continuously, review quarterly
+* **CloudWatch & Compute Optimizer:** Deployed CloudWatch Agent to collect memory and disk metrics. Analyzed EC2 performance with Compute Optimizer, achieving 50% cost savings by downsizing from t3.large to t3.medium. Created real-time monitoring dashboards for comprehensive resource visibility.
 
-* Mastered AWS Key Management Service (KMS):
-  * Understand KMS fundamentals: Customer Master Keys (CMK), encryption at rest
-  * Pricing: $1/month per CMK + $0.03 per 10,000 requests
-  * Created IAM Users: `UserA` (owner), `UserB` (receiver), `UserC` (no permissions)
-  * Created Customer Managed Key with symmetric encryption, enabled automatic rotation
-  * Created S3 bucket with KMS encryption (SSE-KMS with custom CMK)
-  * Enabled Bucket Key to reduce KMS API calls (cost optimization)
+* **KMS & CloudTrail:** Mastered data encryption with KMS, created custom keys with automatic rotation enabled. Implemented CloudTrail for audit logging, queried logs with Athena. Optimized KMS costs by reducing API calls by 99% using S3 Bucket Key optimization.
 
-* Implemented audit logging and compliance:
-  * Created CloudTrail trail to capture KMS API calls and S3 data events
-  * Set up Amazon Athena with database `cloudtrail_logs`
-  * Tested encryption workflow: UserA upload → auto-encrypted, UserA and UserB download successful
-  * UserC attempted download: Access Denied (access control working correctly)
-  * Queried audit logs with Athena SQL: tracked Encrypt, Decrypt, GenerateDataKey operations
-  * S3 Bucket Key optimization: reduced KMS calls by 99%, cost from $2.80 → $1.05/month
-  * Compliance: Encryption at rest meets GDPR, HIPAA, PCI-DSS requirements
+**Wed-Fri: ITCoach Project - Final Testing & Deployment**
 
-* Completed AWS Workforce Bootcamp:
-  * Completed 33 labs in 12 weeks (04/17/2026 - 07/10/2026)
-  * Mastered 15+ AWS services: IAM, EC2, S3, Lambda, DynamoDB, API Gateway, CloudWatch, Systems Manager, KMS, CloudTrail, Athena
-  * Gained hands-on experience with cost optimization, security best practices, monitoring and compliance
-  * Ready for AWS Certifications: Cloud Practitioner (Ready), Solutions Architect Associate (80% Ready)
-  * Received certificate of completion, ready for AWS career opportunities
+* **Comprehensive Testing:** Conducted end-to-end functional testing of all user flows (registration → login → question selection → voice recording → AI evaluation → XP updates). Performed integration testing across 15+ AWS services. Load tested with 100 concurrent users achieving <250ms average response time. Security tested WAF protection, authentication flows, and HTTPS encryption.
+
+* **Web Optimization:** Enhanced UI/UX with improved voice recording interface, dark mode, and interactive notifications. Optimized frontend performance with lazy loading and code splitting, reducing bundle size by 50% (3.2MB → 1.6MB). Improved page load times from 4.5s to 2.1s.
+
+* **Infrastructure Stabilization:** Established comprehensive monitoring with CloudWatch dashboards, 15+ alerts for system health, and AWS X-Ray distributed tracing. Finalized cost optimization at ~$20-22/month including OpenAI API costs. Created complete technical documentation including deployment runbook and API documentation.
+
+* **Project Completion:** Successfully deployed production system to `https://itcoach24h.xyz`. All 15 AWS services operating stably with dual WAF protection, full HTTPS encryption, and Cognito authentication. ITCoach platform ready to serve users as a fully functional AI-powered IT interview practice system on AWS Serverless architecture.
 

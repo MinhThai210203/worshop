@@ -14,11 +14,11 @@ pre: " <b> 1.7. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| 2 | - Research CI/CD architecture on Amazon ECS<br>- Learn Docker containerization and ECS Task Definitions<br>- Environment preparation: create ECS Cluster, ECR repository<br>- Configure GitLab repository and create Dockerfile | 06/01/2026 | 06/01/2026 | <https://000017.awsstudygroup.com/> |
-| 3 | - Write GitLab CI/CD configuration file (.gitlab-ci.yml)<br>- Integrate GitHub Actions with AWS CodeBuild<br>- Configure automated build and push Docker image<br>- Deploy application to ECS through CI/CD | 06/02/2026 | 06/02/2026 | <https://000017.awsstudygroup.com/> |
-| 4 | - Learn AWS Security Hub and security standards<br>- Enable AWS Security Hub in account<br>- Configure security standards (CIS AWS Foundations, PCI DSS)<br>- Analyze security findings and create custom insights | 06/03/2026 | 06/03/2026 | <https://000018.awsstudygroup.com/> |
-| 5 | - Research VPC Peering architecture and use cases<br>- Create CloudFormation template for multi-VPC architecture<br>- Configure VPC Peering connection and update route tables<br>- Launch EC2 instances in both VPCs | 06/04/2026 | 06/04/2026 | <https://000019.awsstudygroup.com/> |
-| 6 | - Configure Security Groups for peered VPCs<br>- Test connectivity between instances via private IPs<br>- Implement security best practices for VPC Peering<br>- Configure Network ACLs and document architecture | 06/05/2026 | 06/05/2026 | <https://000019.awsstudygroup.com/> |
+| Mon | - Research CI/CD architecture on Amazon ECS<br>- Learn Docker containerization and ECS Task Definitions<br>- Environment preparation: create ECS Cluster, ECR repository<br>- Configure GitLab repository and create Dockerfile | 06/01/2026 | 06/01/2026 | <https://000017.awsstudygroup.com/> |
+| Tue | - Write GitLab CI/CD configuration file (.gitlab-ci.yml)<br>- Integrate GitHub Actions with AWS CodeBuild<br>- Configure automated build and push Docker image<br>- Deploy application to ECS through CI/CD | 06/02/2026 | 06/02/2026 | <https://000017.awsstudygroup.com/> |
+| Wed | - Learn AWS Security Hub and security standards<br>- Enable AWS Security Hub in account<br>- Configure security standards (CIS AWS Foundations, PCI DSS)<br>- Analyze security findings and create custom insights | 06/03/2026 | 06/03/2026 | <https://000018.awsstudygroup.com/> |
+| Thu | - Research VPC Peering architecture and use cases<br>- Create CloudFormation template for multi-VPC architecture<br>- Configure VPC Peering connection and update route tables<br>- Launch EC2 instances in both VPCs | 06/04/2026 | 06/04/2026 | <https://000019.awsstudygroup.com/> |
+| Fri | - Configure Security Groups for peered VPCs<br>- Test connectivity between instances via private IPs<br>- Implement security best practices for VPC Peering<br>- Configure Network ACLs and document architecture | 06/05/2026 | 06/05/2026 | <https://000019.awsstudygroup.com/> |
 
 ### Week 7 Achievements:
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Create Users Table"
 date: 2024-01-01
 weight: 1
@@ -60,7 +60,7 @@ The table creation process takes about 10-30 seconds. Status will change from **
 {
   "userId": "user-123456",
   "email": "student@example.com",
-  "name": "Nguyễn Văn A",
+  "name": "Nguyen Van A",
   "specialty": "frontend",
   "level": "fresher",
   "createdAt": "2026-04-17T10:00:00Z",
